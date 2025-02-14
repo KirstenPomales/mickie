@@ -16,8 +16,29 @@ const fontHeading = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "MickieAI",
-  description: "The framework for autonamous trading agents",
+  title: {
+    template: "%s | MickieAI",
+    default: "MickieAI",
+  },
+  description: "The framework for autonomous trading agents",
+  openGraph: {
+    title: "MickieAIe",
+    description: "The framework for autonomous trading agents",
+    images: [
+      {
+        url: "/images/meta-image.png",
+        width: 1200,
+        height: 630,
+        alt: "MickieAI",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "MickieAI",
+    description: "The framework for autonomous trading agents",
+    images: ["/images/meta-image.png"], // Optional
+  },
 };
 
 export default function RootLayout({
