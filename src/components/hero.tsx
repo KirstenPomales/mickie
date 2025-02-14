@@ -45,7 +45,7 @@ export function Hero() {
                   target="_blank"
                   className="cursor-pointer text-black"
                 >
-                  Follow Updates
+                  <p className="text-black">Follow Updates</p>
                 </Link>
               </Button>
               <Button asChild>

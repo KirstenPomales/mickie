@@ -25,7 +25,7 @@ export function Header() {
         <div className="hidden items-center gap-2 md:flex">
           <Button asChild>
             <Link href="https://github.com/Mickie-AI" className="cursor-pointer text-black">
-              View Github
+              <p className="text-black">View Github</p>
             </Link>
           </Button>
         </div>
